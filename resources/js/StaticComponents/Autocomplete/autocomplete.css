@@ -1,0 +1,24 @@
+.autocomplete_container{
+    position:relative;
+    width:100%;
+}
+.autocomplete_container ul{
+    list-style: none;
+    padding: 0;
+    position:absolute;
+    width:100%;
+    background:rgb(241, 241, 241);
+    border:1px solid black;
+    border-top: 0;
+    border-radius:0 0 5px 5px;
+}
+.autocomplete_container ul .item{
+    padding: 3px;
+}
+.autocomplete_container ul .item:last-child{
+    padding: 3px;
+    border-radius:0 0 5px 5px;
+}
+.autocomplete_container ul .item:hover{
+    background:#e5e5e5;
+}
